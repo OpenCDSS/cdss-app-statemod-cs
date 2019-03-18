@@ -1,0 +1,6 @@
+# Repositories that comprise StateMod C#
+# - assumes that local folder name will match the repository name
+cdss-app-statemod-cs
+cdss-lib-cdss-cs
+cdss-lib-common-cs
+cdss-lib-models-cs
