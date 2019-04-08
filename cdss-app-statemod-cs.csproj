@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\cdss-lib-cdss-cs\cdss-lib-cdss-cs.csproj" />
+    <ProjectReference Include="..\cdss-lib-common-cs\cdss-lib-common-cs.csproj" />
+    <ProjectReference Include="..\cdss-lib-models-cs\cdss-lib-models-cs.csproj" />
+  </ItemGroup>
+
+</Project>
