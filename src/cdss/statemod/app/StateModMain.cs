@@ -138,7 +138,7 @@ namespace cdss.statemod.app
                     dataset = new StateMod_DataSet();
                     //TODO @jurentie 03/25/2019 - removed parent
                     dataset.readStateModFile(responseFile, readData, readTimeSeries, useGUI);//, parent);
-                    Message.printStatus(1, routine, dataset.ToString());
+                    //Message.printStatus(1, routine, dataset.ToString());
                 }
                 catch (Exception e2)
                 {
