@@ -69,7 +69,7 @@ cdss-app-statemod-cs
 
 ## Getting Started ##
 
-To see how to set up the StateMod-C# .NET Core project in Visual Studio see the [documentation](dev-doc/VisualStudio-.NET-Core-Solution-Set-UP.md) under the folder `dev-doc/`.   
+To see how to set up the StateMod-C# .NET Core project in Visual Studio see the [documentation](dev-doc/VisualStudio-.NET-Core-Solution-Set-Up.md) under the folder `dev-doc/`.   
 
 ## Contributing ##
 
