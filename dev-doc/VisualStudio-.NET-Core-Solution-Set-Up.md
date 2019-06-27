@@ -186,6 +186,8 @@ Follow similar steps above for adding any other files or folders to the workspac
 
 ## Set namespace: ##
 
+_This shouldn't be necessary for StateMod given the files have already been edited accordingly in the repository_
+
 Namespaces in C# are similar to packages in java. See [Java Packages V. C# Namespaces](http://www.javacamp.org/javavscsharp/namespace.html). When configuring the project the "Default namespace" should have been set to blank. With the current configuration, when creating a new file it will default to a namespace similar to:
 
 ```c#
@@ -239,6 +241,17 @@ namespace cdss.statemod.app
     }
 }
 ```
+
+
+
+## Manage NuGet packages: ##
+
+The repository project in the solution `cdss-lib-cdss-common-cs` requires the NLog NuGet package to run. To do this follow the steps below:
+
+1. Right click on `cdss-lib-common-cs` in the solution explorer.
+2. Select :gift: **Manage NuGet Packages**. 
+3. Click the ***Browse*** tab and in the search bar search for "NLog.Config"
+4. In the right side panel select ***Install*** to install this NuGet Package to the project.
 
 ## Setting run configurations: ##
 
