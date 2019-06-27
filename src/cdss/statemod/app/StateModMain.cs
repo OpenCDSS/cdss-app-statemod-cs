@@ -46,6 +46,9 @@ namespace cdss.statemod.app
         public static void Main(string[] args)
         {
 
+            Console.WriteLine("args: ");
+            Array.ForEach(args, Console.WriteLine);
+
             string routine = "StateModMain.Main";
 
             try

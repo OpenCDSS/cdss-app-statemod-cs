@@ -4,12 +4,35 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <RootNamespace></RootNamespace>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\cdss-lib-cdss-cs\cdss-lib-cdss-cs.csproj" />
     <ProjectReference Include="..\cdss-lib-common-cs\cdss-lib-common-cs.csproj" />
     <ProjectReference Include="..\cdss-lib-models-cs\cdss-lib-models-cs.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="vs-solution\StateMod-UI\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="vs-solution\StateMod-UI\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="vs-solution\StateMod_UI\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="vs-solution\StateMod_UI\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
   </ItemGroup>
 
 </Project>
