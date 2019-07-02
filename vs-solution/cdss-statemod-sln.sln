@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cdss-lib-common-cs", "..\..
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cdss-lib-models-cs", "..\..\cdss-lib-models-cs\cdss-lib-models-cs.csproj", "{3D085A22-0F28-497D-A149-11F25107E461}"
 EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "StateMod_Installer", "StateMod_Installer\StateMod_Installer.aiproj", "{BE16D2C2-14E9-4AC1-8BE8-734BA899567B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		All|Any CPU = All|Any CPU
@@ -42,6 +44,12 @@ Global
 		{3D085A22-0F28-497D-A149-11F25107E461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D085A22-0F28-497D-A149-11F25107E461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D085A22-0F28-497D-A149-11F25107E461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE16D2C2-14E9-4AC1-8BE8-734BA899567B}.All|Any CPU.ActiveCfg = DefaultBuild
+		{BE16D2C2-14E9-4AC1-8BE8-734BA899567B}.All|Any CPU.Build.0 = DefaultBuild
+		{BE16D2C2-14E9-4AC1-8BE8-734BA899567B}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{BE16D2C2-14E9-4AC1-8BE8-734BA899567B}.Debug|Any CPU.Build.0 = DefaultBuild
+		{BE16D2C2-14E9-4AC1-8BE8-734BA899567B}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{BE16D2C2-14E9-4AC1-8BE8-734BA899567B}.Release|Any CPU.Build.0 = DefaultBuild
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
