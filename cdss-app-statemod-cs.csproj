@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\cdss-lib-cdss-cs\cdss-lib-cdss-cs.csproj" />
     <ProjectReference Include="..\cdss-lib-common-cs\cdss-lib-common-cs.csproj" />
     <ProjectReference Include="..\cdss-lib-models-cs\cdss-lib-models-cs.csproj" />
