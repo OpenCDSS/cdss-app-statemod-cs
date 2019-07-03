@@ -5,6 +5,7 @@
 
 # Custom ignore @jurentie
 Properties/
+vs-solution/StateMod-Installer/
 
 # User-specific files
 *.rsuser
