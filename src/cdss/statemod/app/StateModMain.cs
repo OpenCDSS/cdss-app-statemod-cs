@@ -46,9 +46,6 @@ namespace cdss.statemod.app
         public static void Main(string[] args)
         {
 
-            Console.WriteLine("args: ");
-            Array.ForEach(args, Console.WriteLine);
-
             string routine = "StateModMain.Main";
 
             try
@@ -428,7 +425,7 @@ namespace cdss.statemod.app
 
             Console.WriteLine("STOP " + status + "\n");
             Message.closeLogFile();
-            //System.exit(status);
+            Environment.Exit(status);
         }
 
     }
