@@ -22,32 +22,6 @@
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\cdss-app-statemod-cs\cdss-app-statemod-cs.csproj">
-      <Name>cdss-app-statemod-cs</Name>
-      <Project>{87c3b8cd-4c58-487f-934f-ad37f2aca97a}</Project>
-      <Private>True</Private>
-      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\cdss-lib-cdss-cs\cdss-lib-cdss-cs.csproj">
-      <Name>cdss-lib-cdss-cs</Name>
-      <Project>{55087d31-ef8b-4527-8762-3ae040090049}</Project>
-      <Private>True</Private>
-      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\cdss-lib-common-cs\cdss-lib-common-cs.csproj">
-      <Name>cdss-lib-common-cs</Name>
-      <Project>{8f5b21e5-10fd-47ce-880d-6ea4c3a7de87}</Project>
-      <Private>True</Private>
-      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\cdss-lib-models-cs\cdss-lib-models-cs.csproj">
-      <Name>cdss-lib-models-cs</Name>
-      <Project>{3d085a22-0f28-497d-a149-11f25107e461}</Project>
-      <Private>True</Private>
-      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
-    </ProjectReference>
-  </ItemGroup>
   <Target Name="Build">
     <Error Text="This project requires Advanced Installer tool. Please download it from https://www.advancedinstaller.com/download.html" />
   </Target>
