@@ -1,0 +1,3 @@
+# Need this to NOT ignore rsp files that otherwise would be ignored because
+# of the main .gitignore file (Microsoft .rsp files are ignored)
+!*.rsp

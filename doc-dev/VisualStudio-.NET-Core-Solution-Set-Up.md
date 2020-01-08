@@ -328,15 +328,21 @@ To add command line arguments to the project:
 
 3. Click ***Debug*** from the left hand menu.
 
-4. Add command line arguments in the "Application arguments" text-box. 
+4. Add command line arguments in the ***Application arguments*** text-box. 
 
-   ex:
+   For example:
 
-   `statemod-cs -sim ../../../test/datasets/cdss-ym2015/StateMod/ym2015H.rsp`
+   `-sim ../../../test/datasets/cdss-ym2015/StateMod/ym2015H.rsp`
+
+Make sure that the response file exists.
+The starting folder will be `bin/Debug/netcoreapp2.0` or similar.
+Therefore, if this folder is used as the working directory in the run configuration,
+the path to the StateMod `*.rsp` file must be specified relative to this folder.
 
 ## Running the prototype: ##
 
-To run the prototype using the debug configuration
+To run the prototype in debug mode, click on the green arrow next to `cdss-app-statemod-cs`
+below menus at the top of the Visual Studio window.
 
 ## Troubleshooting: ##
 
